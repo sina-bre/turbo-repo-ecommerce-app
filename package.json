@@ -9,7 +9,7 @@
     "check-types": "turbo run check-types",
     "test": "echo \"No tests specified\"",
     "prepare": "husky",
-    "commit": "pnpm dlx commitizen",
+    "commit": "npx cz",
     "lint:commit": "pnpm exec commitlint --from=origin/main --to=HEAD"
   },
   "config": {
